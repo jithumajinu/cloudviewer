@@ -1,0 +1,45 @@
+/* @import "./shared/styles/mixins";
+
+img {
+  @include push--auto();
+  display: block;
+}
+
+.explanation {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+$backColor: brown;
+.search-button {
+    border-color: skyblue;
+    color: blue;
+
+    &:hover, &:after, &:focus {
+        background-color: transparent;
+        color: $backColor;
+    }
+}
+.brand-custom {
+    &:hover, &:focus, &:active {
+        background-color: transparent;
+        color:$backColor;
+    }
+}
+
+.login-custom {
+    &:hover, &:focus, &:active {
+        background-color: transparent;
+        color:$backColor !important;
+    }
+}
+
+.register-custom {
+    &:hover, &:focus, &:active {
+        background-color: transparent;
+        color:$backColor !important;
+    }
+}
+
+*/
