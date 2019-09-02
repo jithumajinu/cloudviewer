@@ -33,6 +33,7 @@ export class ViewmodelversionComponent implements OnInit {
 
   
   // "src/app/shared/scripts/magazine.js" 
+  /*
   showWidget = false;
   spWidgetAttributes = {
     'data-location': 'spiros-restaurant--lounge',
@@ -53,6 +54,6 @@ export class ViewmodelversionComponent implements OnInit {
     console.log('Failed', event);
   }
 
-  
+  */
 
 }
