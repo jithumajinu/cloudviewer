@@ -32,11 +32,22 @@
               "src/styles.scss"
             ],
             "scripts": ["node_modules/jquery/dist/jquery.min.js",
-                       "src/app/shared/scripts/customturna.js",
-                       "src/app/shared/scripts/turn.js"
-                        
+                       "src/app/shared/scripts/extras/jquery.min.1.7.js",            
+                       "src/app/shared/scripts/customturnas.js",                                              
+                       "src/app/shared/scripts/rootjsmain.js",                                                                   
+                       "src/app/shared/scripts/turn.js",
+                       "src/app/shared/scripts/extras/modernizr.2.5.3.min.js",                       
+                       "src/app/shared/scripts/lib/hash.js",                 
+                       "src/app/shared/scripts/lib/turn.html4.min.js",      
+                       "src/app/shared/scripts/lib/scissor.min.js",           
+                       "src/app/shared/scripts/lib/zoom.min.js", 
+                       "src/app/shared/scripts/magazine.js"       
                       ]
           },
+
+ 
+
+
           "configurations": {
             "production": {
               "fileReplacements": [

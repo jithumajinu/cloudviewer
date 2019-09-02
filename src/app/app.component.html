@@ -4,7 +4,11 @@
     <app-header></app-header>
     <router-outlet *ngIf="isOnline;else isOffline">
        
-        <app-cloudpicviewer></app-cloudpicviewer>
+ <!--  <app-cloudpicviewer></app-cloudpicviewer> -->
+         <app-viewmodelversion></app-viewmodelversion>    
+
+  <!--         <app-viewmodeldouleside></app-viewmodeldouleside>  -->
+        
 
     </router-outlet>
     <ng-template #isOffline>
